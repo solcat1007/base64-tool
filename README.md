@@ -1,25 +1,38 @@
-# base64-tool
+# Base64 编解码
 
-Base64 encode/decode tool - text & image conversion
+> Base64 / URL安全编码在线转换工具，支持文本与图片互转，纯前端零依赖
 
-## Features
+## 功能概览
 
-Pure frontend tool - no server required, open in browser and use.
+- **文本 ↔ Base64 双向转换，支持 UTF-8 中文不乱码**
+- **图片拖拽/粘贴自动转 Base64，支持 PNG/JPG/GIF**
+- **URL 安全 Base64 编码（± 替换 +/，去除 = 填充）**
+- **一键复制、清空、交换输入输出面板**
+- **纯前端处理，文件不上传服务器，隐私安全**
 
-## Usage
+## 操作说明
 
-1. Download index.html
-2. Open in browser
-3. Start using!
+1. 打开 index.html（浏览器直接运行，无需服务器）
+2. 按界面引导输入/操作
+3. 结果实时预览，支持一键复制导出
 
-Or visit GitHub Pages (if configured).
+## 技术栈
 
-## Tech Stack
+- **HTML5**：语义化结构
+- **CSS3**：白色极简主题，Flex/Grid 布局
+- **Vanilla JavaScript**：纯原生代码，零依赖
+- **ES6+**：sync/await、箭头函数、模板字符串
+- **localStorage**：偏好设置持久化
 
-- Pure HTML/CSS/JavaScript
-- Zero dependencies, no build tools
-- White minimalist theme design
+## 兼容性
 
-## License
+| 浏览器 | 支持情况 |
+|---|---|
+| Chrome 90+ | 完全支持 |
+| Firefox 88+ | 完全支持 |
+| Safari 14+ | 完全支持 |
+| Edge 90+ | 完全支持 |
 
-MIT
+## 许可证
+
+MIT (c) solcat1007
